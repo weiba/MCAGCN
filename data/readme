@@ -1,1 +1,1 @@
-
+We provide four .npz data files corresponding to the four classification tasks described in our paper. Each .npz file contains the subject IDs (subjects_list), fMRI data (fmri_data), genetic data (gene_codes), class labels (labels), and the original order of the subjects during preprocessing (order). The labels field contains the actual class names (e.g., “AD” and “NC” for the AD-NC task), You can load the .npz file and directly access the subjects_list and labels fields to check the ID and corresponding label of each subject.
